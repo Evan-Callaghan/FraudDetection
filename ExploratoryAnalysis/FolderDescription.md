@@ -8,4 +8,6 @@ Here, we will add a ipynb notebook exploring the data, which could include the f
 
 -> Group by funcitons
 
+-> Creation of new features
+
 -> Distribution of the target data across the dataset. 
