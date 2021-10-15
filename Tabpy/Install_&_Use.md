@@ -44,6 +44,7 @@ There are 4 types of scripts possible with tabpy:
     ",
     
     SUM/AVG/COUNT([Column1]),SUM/AVG/COUNT([Column2])
+    
     )
 
 
@@ -68,4 +69,5 @@ There are 4 types of scripts possible with tabpy:
     ",
     
     SUM([Carwidth]),SUM([Carlength])
+    
     )
