@@ -1,13 +1,12 @@
 # Here we describe the purpose of this folder.
 
-Here, we will add a ipynb notebook exploring the data, which could include the following:
+This folder contains code that performed the following tasks:
 
--> Plots
+-> Plotting histograms to quickly visualize data distribution
 
--> Data shape
+-> Group by funcitons used to visualize potential patterns
 
--> Group by funcitons
+-> Data shape exploration
 
 -> Features Engineering
 
--> Distribution of the target data across the dataset. 
