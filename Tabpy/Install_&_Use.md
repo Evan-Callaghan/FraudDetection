@@ -4,15 +4,21 @@
 
 * To install tabpy, go to anaconda, select your environment and open a terminal.
 
-* Run the code "pip install tabpy", and once it is installed, type tabpy.
+* Then, run the following code
 
-* To allow python scripts in Tableau, once you are in a Tableau book, go to the Help -> Settings and Performance -> Manage Analytics Extensions Connection.
+        pip install tabpy
+        
+ * Once tabpy is installed, run the following command
+
+        tabpy
+
+* To allow python scripts in Tableau, once you are in a Tableau book, go to Help -> Settings and Performance -> Manage Analytics Extensions Connection.
 
 * Under hostname, wihtout the quotes type "localhost". Under port, copy and paste the port that shows under the Terminal once you have started Tabpy. It should be in the last line of the terminal. There is no need to sign in with name and password. Then, you can start tabpy, and it is ready to use.
 
 ## Shut down Tabpy in your local machine
 
-* To shutdown tabpy, on mac, use control + c. 
+* To shutdown tabpy, in your mac terminal, use control + c. 
 
 ## Types of script for tabpy
 There are 4 types of scripts possible with tabpy:
@@ -38,12 +44,14 @@ There are 4 types of scripts possible with tabpy:
     "
     script in python, including importing libraries.
 
-    _arg1 = first argument after comma that is used after the script
-    _arg2 = second argument after comma that is used after the script
+    _arg1 is a reference to the first column inserted from tableau
+    _arg2 is a reference to the second column inserted from tableau
+    
+    return x ## Used to return a number/list from the calculation in python
 
     ",
     
-    SUM/AVG/COUNT([Column1]),SUM/AVG/COUNT([Column2])
+    SUM/AVG/COUNT([Column1]),SUM/AVG/COUNT([Column2]) ## Here we specify the input columns from the data set
     
     )
 
