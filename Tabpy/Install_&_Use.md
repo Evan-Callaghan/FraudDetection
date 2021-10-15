@@ -14,7 +14,7 @@
 
 * To allow python scripts in Tableau, once you are in a Tableau book, go to Help -> Settings and Performance -> Manage Analytics Extensions Connection.
 
-* Under hostname, wihtout the quotes type "localhost". Under port, copy and paste the port that shows under the Terminal once you have started Tabpy. It should be in the last line of the terminal. There is no need to sign in with name and password. Then, you can start tabpy, and it is ready to use.
+* Under hostname, wihtout the quotes type "localhost". Under port, use the 4-digits number that appears in the last line of the terminal after running the command tabpy. There is no need to sign in with name and password. Then, you can start tabpy, and it is ready to use.
 
 ## Shut down Tabpy in your local machine
 
